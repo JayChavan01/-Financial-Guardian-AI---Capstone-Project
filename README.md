@@ -213,27 +213,16 @@ class AgentMessage:
 ---
 
 ## 🎨 Professional Dashboard
-
 ### 📈 Dashboard Preview
 
 <div align="center">
 
-![Financial Dashboard]
-(https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/Overall%20Financial%20Health%20Dashboard.jpg)
+[Financial Dashboard](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/Overall%20Financial%20Health%20Dashboard.jpg)
 
-*Comprehensive financial health dashboard with real-time metrics and AI insights*
-
-</div>
-
-### 📈 Dashboard Preview
-
-<div align="center">
-
-![Financial Dashboard](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/raw/main/Media/Overall%20Financial%20Health%20Dashboard.jpg)
-
-*Comprehensive financial health dashboard with real-time metrics and AI insights*
+*Click above to view the comprehensive financial health dashboard with real-time metrics and AI insights*
 
 </div>
+
 
 ### 🎯 Dashboard Capabilities
 
