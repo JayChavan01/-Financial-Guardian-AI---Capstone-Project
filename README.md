@@ -57,7 +57,7 @@ Financial wellness requires **multiple domains of expertise** no single AI can m
 ---
 
 ## 🏗️ System Architecture
-
+```
 graph TB
     %% Styling Definitions
     classDef ui fill:#4A90E2,stroke:#3A70B2,stroke-width:2px,color:white;
@@ -128,6 +128,7 @@ graph TB
     N --> D
     N --> E
     N --> F
+```
 
 ### 🏢 Enterprise Technology Stack
 
