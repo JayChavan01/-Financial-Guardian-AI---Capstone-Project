@@ -57,7 +57,8 @@ Financial wellness requires **multiple domains of expertise** no single AI can m
 ---
 
 ## 🏗️ System Architecture
-```
+
+```mermaid
 graph TB
     %% Styling Definitions
     classDef ui fill:#4A90E2,stroke:#3A70B2,stroke-width:2px,color:white;
@@ -218,6 +219,8 @@ class AgentMessage:
 <div align="center">
 
 ![Financial Dashboard](Dashboard..jpg)
+![Dashboard](https://github.com/user-attachments/assets/51551b6c-7647-4097-9b24-211f4504c5d7)
+
 
 *Comprehensive financial health dashboard with real-time metrics and AI insights*
 
