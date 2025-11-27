@@ -225,7 +225,7 @@ class AgentMessage:
 </div>
 
 <div align="center">
-https://Media/Overall%2520Financial%2520Health%2520Dashboard.jpg
+(https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/Overall%20Financial%20Health%20Dashboard.jpg)
 
 Comprehensive financial health dashboard with real-time metrics and AI insights
 
