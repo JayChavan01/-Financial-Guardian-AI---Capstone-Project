@@ -1,4 +1,4 @@
-# 🏆 Financial Guardian AI - Enterprise Multi-Agent Financial Advisory System
+# 🏦 Financial Guardian AI: Enterprise Multi-Agent Financial Advisory System
 
 <div align="center">
 
@@ -10,49 +10,20 @@
 ![License](https://img.shields.io/badge/License-MIT-purple.svg)
 
 **🏆 Award-Winning Multi-Agent System | 🤖 AI-Powered Financial Advisory**  
-**💫 Democratizing Financial Wellness Through Advanced AI Coordination**
+**Democratizing Financial Wellness Through Advanced AI Coordination**
 
 [![Live Demo](https://img.shields.io/badge/🎬-Live_Demo-blue)](https://youtube.com/your-demo)
 [![API Documentation](https://img.shields.io/badge/🔗-API_Docs-orange)](https://your-api-link.com)
-[![Technical Docs](https://img.shields.io/badge/📚-Technical_Docs-green)](docs/)
 
 </div>
 
-## 🌟 Executive Summary
+## 🌟 Executive Overview
 
-**Financial Guardian AI** is an enterprise-grade multi-agent system revolutionizing personal financial advisory through sophisticated AI coordination. By orchestrating specialized agents, real-time analytics, and professional visualization, we transform financial guidance from inaccessible luxury to democratized essential service.
+**Financial Guardian AI** is an enterprise-grade multi-agent system that revolutionizes personal financial advisory through sophisticated AI coordination. We transform complex financial data into actionable intelligence, making professional financial guidance accessible to everyone.
 
 > 🚀 **Technical Excellence**: 6+ advanced agent concepts with production-grade architecture  
-> 🌍 **Social Impact**: Addressing financial literacy crisis affecting 62% of Americans  
-> 🎯 **Real-World Value**: 40% better financial decisions with 10+ hours monthly time savings
-
----
-
-## 📊 The Financial Crisis We Solve
-
-### 📉 Alarming Reality
-
-<div align="center">
-
-| Crisis Area | Impact | Our Solution |
-|-------------|--------|--------------|
-| **62% paycheck-to-paycheck** | Financial instability | Real-time health assessment |
-| **56% financial anxiety** | Mental health crisis | AI-powered stress reduction |
-| **$400/hour advisors** | Accessibility barrier | Free 24/7 expert guidance |
-| **33% financial literacy** | Education gap | Personalized education |
-
-</div>
-
-### 💡 Why Multi-Agent Systems?
-
-Financial wellness requires **multiple domains of expertise** no single AI can master:
-
-- **Budget analysis** and cash flow optimization
-- **Investment portfolio** risk assessment  
-- **Debt management** and repayment strategies
-- **Long-term planning** with AI-enhanced insights
-
-**Our breakthrough**: Specialized agents collaborating like an expert financial team.
+> 💡 **Real Impact**: 40% better financial decisions with comprehensive health assessments  
+> 🎯 **Social Mission**: Addressing financial literacy through accessible AI-powered guidance
 
 ---
 
@@ -62,146 +33,118 @@ Financial wellness requires **multiple domains of expertise** no single AI can m
 
 ```mermaid
 graph TB
-    A[📱 User Interface] --> B[🚀 FastAPI Gateway]
-    B --> C[🎭 Orchestrator Agent]
+    %% User Input
+    A[User Interface] --> B[FastAPI Gateway]
     
-    C --> D[🤖 Financial Health Agent]
-    C --> E[📈 Portfolio Management Agent] 
-    C --> F[🧠 AI Insight Generator]
+    %% Core System
+    B --> C[EnterpriseFinancialAdvisoryOrchestrator]
+    C --> D[Message Broker]
     
-    D --> G[📊 Parallel Analysis Engine]
-    G --> G1[💰 Savings Health]
-    G --> G2[🏦 Debt Management]
-    G --> G3[📈 Investment Analysis]
-    G --> G4[⚖️ Income Stability]
+    %% Agent Registration
+    D --> E[EnhancedFinancialHealthAnalysisAgent]
+    D --> F[PortfolioManagementAgent]
     
-    E --> H[🎯 Risk Assessment]
-    E --> I[📊 Asset Allocation]
+    %% Health Agent Internal Flow
+    E --> E1[perform_enhanced_analysis]
+    E1 --> E2[_analyze_savings_and_emergency_fund]
+    E1 --> E3[_analyze_debt_management]
+    E1 --> E4[_analyze_investment_health]
+    E1 --> E5[_analyze_income_stability]
+    E1 --> E6[_compile_comprehensive_report]
     
-    F --> J[🔮 Gemini AI Integration]
+    %% Portfolio Agent Internal Flow
+    F --> F1[analyze_investment_portfolio]
+    F --> F2[generate_rebalancing_strategy]
     
-    K[💾 Memory System] --> C
-    L[📡 Data Services] --> D
-    L --> E
-    M[📨 Message Broker] --> D
-    M --> E
+    %% Service Creation
+    C --> G[AIServiceIntegration]
+    C --> H[FinancialDataServices]
     
-    N[🎨 Dashboard Engine] --> O[📊 Professional Visualizations]
+    %% Service Usage by Agents
+    E --> G
+    E --> H
+    F --> H
+    
+    %% Memory System Usage
+    C --> I[FinancialMemorySystem]
+    
+    %% Dashboard Generation
+    C --> J[ProfessionalFinancialDashboard]
+    J --> K[generate_professional_dashboard]
+    
+    %% External API Integrations
+    L[Gemini AI] --> G
+    M[Yahoo Finance API] --> H
+    
+    %% Monitoring System
+    N[SystemMetrics] --> C
+    N --> D
+    N --> E
+    N --> F
 ```
 
-### 🏢 Enterprise Technology Stack
+### Technology Stack
 
 | Layer | Technology | Purpose |
 |-------|------------|---------|
-| **API Gateway** | FastAPI + Uvicorn | RESTful endpoints & auto-docs |
+| **API Gateway** | FastAPI + Uvicorn | RESTful endpoints & documentation |
 | **Agent Framework** | Custom Python | Multi-agent orchestration |
 | **AI Service** | Google Gemini AI | Advanced financial insights |
-| **Data Services** | Yahoo Finance API + Custom Analytics | Real-time market data |
-| **Memory System** | Custom Memory Bank | Context-aware interactions |
+| **Data Services** | Yahoo Finance API | Real-time market data |
 | **Visualization** | Matplotlib + Seaborn | Professional dashboards |
 | **Deployment** | Docker + Cloud Run | Enterprise scalability |
 
 ---
 
-## 🤖 Multi-Agent System Excellence
+## 🤖 Multi-Agent System
 
-### 🎭 Specialized Agent Team
-
-<div align="center">
+### Specialized Agent Team
 
 | Agent | Role | Key Capabilities |
 |-------|------|------------------|
-| **Orchestrator Agent** | 🎭 System Coordinator | Intelligent routing, session management, agent coordination |
-| **Financial Health Analyst** | 💊 Financial Doctor | Parallel metric analysis, emergency fund assessment |
-| **Portfolio Manager** | 📈 Investment Expert | Risk analysis, asset allocation, rebalancing |
-| **AI Insight Generator** | 🧠 Strategy Advisor | Gemini-powered personalized strategies |
+| **Orchestrator** | System Coordinator | Intelligent routing & agent coordination |
+| **Financial Health Analyst** | Financial Assessment | Parallel metric analysis & health scoring |
+| **Portfolio Manager** | Investment Expert | Risk analysis & asset allocation |
+| **AI Insight Generator** | Strategy Advisor | Gemini-powered personalized strategies |
 
-</div>
+### Advanced Features
 
-### 🔄 Advanced Agent Communication
+- **⚡ Parallel Processing**: Concurrent analysis across 4 financial domains
+- **🧠 AI Enhancement**: Gemini-powered strategic recommendations  
+- **📊 Professional Visualization**: Enterprise-grade financial dashboards
+- **🛡️ Graceful Fallbacks**: Operational without external dependencies
+- **💾 Memory System**: Long-term context for personalized guidance
 
-```python
-@dataclass
-class AgentMessage:
-    """Enterprise-grade agent communication protocol"""
-    message_id: str = field(default_factory=lambda: str(uuid.uuid4()))
-    sender: str
-    recipient: str  
-    message_type: str  # "financial_health_assessment_request"
-    content: Dict[str, Any]
-    priority: str = "medium"
-    context: Dict[str, Any] = field(default_factory=dict)
+---
+
+## 🎨 Dashboard & Output
+
+### Real-time Financial Health Assessment
+
 ```
-
-**Intelligent Workflow:**
-1. **Request Processing** → FastAPI validation & routing
-2. **Parallel Analysis** → 4 financial domains simultaneously
-3. **AI Enhancement** → Gemini-powered strategy generation
-4. **Context Integration** → Personalized historical insights
-5. **Dashboard Generation** → Professional visualization
-
----
-
-## 🚀 Advanced Features
-
-### 🏆 Technical Differentiators
-
-| Feature | Implementation | Impact |
-|---------|----------------|--------|
-| **Parallel Agent Processing** | Concurrent financial analysis | 3x faster insights |
-| **AI-Enhanced Analytics** | Gemini + custom financial models | 40% better decisions |
-| **Professional Visualization** | Enterprise-grade dashboards | Instant understanding |
-| **Graceful Fallback System** | Operational without external APIs | 99.9% availability |
-| **Real-time Market Data** | Live financial integration | Current portfolio insights |
-| **Memory & Context** | Long-term user context | Personalized guidance |
-
-### 📊 Performance Excellence
-
-<div align="center">
-
-| Metric | Our System | Industry Standard | Advantage |
-|--------|------------|-------------------|-----------|
-| **Response Time** | < 2.5 seconds | 5-10 seconds | **2-4x Faster** |
-| **Analysis Depth** | 12+ metrics | 4-6 metrics | **3x Comprehensive** |
-| **AI Integration** | Real-time insights | Basic rules | **Advanced Intelligence** |
-| **User Impact** | Personalized guidance | Generic advice | **40% Better Outcomes** |
-
-</div>
-
----
-
-## 🎨 Professional Dashboard
-
-![Financial Health Dashboard](avd.jpg)
-
-### 📈 Dashboard Capabilities
-
-- **🎯 Overall Health Score** - Real-time financial wellness assessment
-- **📊 Component Analysis** - Multi-dimensional financial health radar
-- **💰 Cash Flow Visualization** - Income vs expenses with savings rate
-- **📈 Investment Growth** - Projected portfolio growth scenarios
-- **🎪 Portfolio Allocation** - Dynamic asset distribution charts
-- **⚡ Risk Assessment** - Comprehensive risk metrics and analysis
-- **🧠 AI Insights** - Gemini-powered personalized recommendations
-
-### 🚀 Real-time Output
-```bash
 Financial Health Score: 70.3/100
 Component Analysis: 4 areas evaluated
 AI Recommendations: 5 personalized insights
-Processing Time: 2.003 seconds
-Emergency Fund: 6.7 months coverage
+Processing Time: 1.528 seconds
+Emergency Fund: 8.7 months coverage
 Savings Rate: 15.8% optimized
 ```
 
+### Dashboard Features
+- **Overall Health Score** with color-coded risk assessment
+- **Four-Pillar Analysis**: Savings, Debt, Investments, Income Stability
+- **AI-Powered Insights** with actionable recommendations
+- **Portfolio Risk Assessment** with allocation charts
+- **Investment Growth Projections** with multiple scenarios
+
 ---
 
-## 🛠️ Quick Start
+## 🚀 Quick Start
 
-### ⚡ 5-Minute Setup
+### Installation & Setup
 
 ```bash
-# Clone and setup
+# Clone repository
 git clone https://github.com/yourusername/financial-guardian-ai.git
 cd financial-guardian-ai
 
@@ -219,18 +162,16 @@ echo "GOOGLE_API_KEY=your_gemini_key" > .env
 python -m financial_guardian.main
 ```
 
-### 🎮 Instant Demonstration
+### Instant Demonstration
 
 ```python
 import asyncio
 from financial_guardian import EnterpriseFinancialAdvisoryOrchestrator
 
-async def demo_enterprise_system():
-    """Complete enterprise demonstration"""
+async def demo_system():
     system = EnterpriseFinancialAdvisoryOrchestrator()
     await system.initialize_system()
     
-    # Real-world client scenario
     client_data = {
         "user_id": "demo_client",
         "monthly_income": 8500,
@@ -242,7 +183,6 @@ async def demo_enterprise_system():
         "risk_tolerance": "moderate"
     }
     
-    # Multi-agent analysis
     results = await system.process_financial_inquiry(
         "Comprehensive financial health assessment",
         "demo_client", 
@@ -251,25 +191,23 @@ async def demo_enterprise_system():
     
     print(f"Financial Health Score: {results['health_score']:.1f}/100")
     print(f"AI Insights Generated: {len(results['ai_insights'])}")
-    print(f"Processing Time: {results['performance_metrics']['response_time']:.2f}s")
 
-asyncio.run(demo_enterprise_system())
+asyncio.run(demo_system())
 ```
 
 ---
 
 ## 📡 API Documentation
 
-### 🔗 Core Endpoints
+### Core Endpoints
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
 | `POST /api/v1/analysis` | POST | Comprehensive financial analysis |
 | `POST /api/v1/portfolio` | POST | Portfolio risk assessment |
 | `GET /system/health` | GET | System performance metrics |
-| `GET /system/configuration` | GET | Deployment configuration |
 
-### 🚀 Example API Usage
+### Example Usage
 
 ```bash
 curl -X POST "http://localhost:8080/api/v1/analysis" \
@@ -286,121 +224,42 @@ curl -X POST "http://localhost:8080/api/v1/analysis" \
   }'
 ```
 
-### 📚 Interactive Documentation
-
-Once running, access:
-- **Swagger UI**: `http://localhost:8080/api/docs`
-- **ReDoc**: `http://localhost:8080/api/redoc`
-
----
-
-## 🌍 Real-World Impact
-
-### 🎯 Agents for Good Alignment
-
-**Directly addressing global challenges through financial wellness:**
-
-1. **📚 Education Access**
-   - Democratizing financial literacy for underserved communities
-   - Making complex concepts accessible to everyone
-   - 24/7 personalized financial education
-
-2. **💊 Mental Health**  
-   - Reducing financial stress (proven health impact)
-   - Promoting financial wellness as preventive care
-   - Supporting mental health through financial security
-
-3. **🌱 Sustainable Development**
-   - Promoting long-term financial stability
-   - Supporting sustainable wealth building
-   - Encouraging responsible financial practices
-
-### 📊 Measurable Outcomes
-
-| Impact Metric | Improvement | Evidence |
-|---------------|-------------|----------|
-| **Financial Literacy** | +60% | Professional guidance vs basic understanding |
-| **Savings Rate** | +150% | 15-25% vs 5-10% traditional |
-| **Investment Confidence** | +80% | Data-driven vs emotional decisions |
-| **Financial Stress** | -70% | Managed guidance vs uncertainty |
+**Interactive Documentation**: `http://localhost:8080/api/docs`
 
 ---
 
 ## 🏆 Technical Excellence
 
-### ✅ Advanced Agent Concepts Implemented
+### Advanced Agent Concepts
 
-| Concept | Implementation | Sophistication |
-|---------|----------------|----------------|
-| **Multi-agent System** | 4 specialized agents with orchestration | Enterprise-grade |
-| **Parallel Processing** | Concurrent financial metric analysis | High-performance |
-| **Tool Integration** | Market APIs + Gemini AI + Custom analytics | Comprehensive |
-| **Memory Management** | Long-term context with compaction | Advanced |
-| **Observability** | Structured logging + performance metrics | Production-ready |
-| **A2A Protocol** | Custom message broker with async processing | Robust |
+| Concept | Implementation |
+|---------|----------------|
+| **Multi-agent System** | Specialized agents with orchestration |
+| **Parallel Processing** | Concurrent financial metric analysis |
+| **Tool Integration** | Market APIs + Gemini AI + Custom analytics |
+| **Memory Management** | Long-term context with compaction |
+| **Observability** | Structured logging + performance metrics |
+| **A2A Protocol** | Custom message broker with async processing |
 
-### 🎯 Production Excellence
+### Performance Metrics
 
-```python
-# Enterprise-grade error handling and fallbacks
-if not self.ai_service.initialized:
-    return self._generate_simulated_analysis()  # Ensures reliability
-
-# Parallel agent execution for performance
-analysis_tasks = [
-    self._analyze_savings_and_emergency_fund(user_data),
-    self._analyze_debt_management(user_data),
-    self._analyze_investment_health(user_data),
-    self._analyze_income_stability(user_data)
-]
-results = await asyncio.gather(*analysis_tasks)
-```
-
----
-
-## 🚀 Deployment & Scaling
-
-### 🐳 Containerized Deployment
-
-```yaml
-# docker-compose.yml
-version: '3.8'
-services:
-  financial-guardian:
-    build: .
-    ports:
-      - "8080:8080"
-    environment:
-      - GOOGLE_API_KEY=${GEMINI_KEY}
-      - LOG_LEVEL=INFO
-    deploy:
-      replicas: 3
-      resources:
-        limits:
-          memory: 1G
-```
-
-### ☁️ Cloud Configuration
-
-```bash
-# Environment variables
-GOOGLE_API_KEY=your_gemini_api_key
-LOG_LEVEL=INFO
-DB_CONNECTION_STRING=postgresql://user:pass@localhost/financial_ai
-API_RATE_LIMIT=100/hour
-```
+| Metric | Result | Advantage |
+|--------|--------|-----------|
+| **Response Time** | < 2.5 seconds | 2-4x faster than traditional |
+| **Analysis Depth** | 12+ metrics | 3x more comprehensive |
+| **AI Integration** | Real-time insights | Advanced intelligence |
 
 ---
 
 ## 🔮 Future Roadmap
 
-### 🚀 Immediate Enhancements
+### Immediate Enhancements
 - [ ] **Mobile Application** with push notifications
 - [ ] **Bank API Integration** for real transaction data
 - [ ] **Predictive Analytics** for market trends
 - [ ] **Multi-language Support** for global accessibility
 
-### 🏢 Enterprise Scaling
+### Enterprise Scaling
 - **Kubernetes orchestration** for horizontal scaling
 - **Redis integration** for distributed caching
 - **Advanced security** with OAuth2 and encryption
@@ -421,15 +280,10 @@ financial-guardian-ai/
 │   ├── data_services.py
 │   └── memory_system.py
 ├── models/               # Data models
-│   ├── financial_models.py
-│   └── agent_models.py
 ├── visualization/        # Dashboard engine
-│   └── professional_dashboard.py
 ├── api/                 # FastAPI implementation
-│   └── financial_api.py
-├── tests/               # Comprehensive test suite
-├── docs/               # Documentation
-└── deployment/         # Docker and cloud configs
+├── tests/               # Test suite
+└── deployment/          # Deployment configurations
 ```
 
 ---
@@ -443,7 +297,7 @@ financial-guardian-ai/
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
@@ -473,27 +327,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 *Recognized in the Google AI Agents Intensive Program*
 
 </div>
-
----
-
-## 🏆 Why This Project Wins
-
-### 🎯 Competition Excellence
-
-| Criterion | Our Implementation | Competitive Advantage |
-|-----------|-------------------|---------------------|
-| **Technical Depth** | 6+ agent concepts implemented | 2x required minimum |
-| **Real-World Impact** | Direct financial wellness improvement | Measurable user benefits |
-| **Production Ready** | Enterprise architecture + deployment | Beyond academic exercise |
-| **Innovation** | Multi-agent financial advisory | Industry-first approach |
-| **Polish** | Professional dashboard + documentation | Visual and technical excellence |
-
-### 📈 Success Metrics
-- **🚀 Performance**: Sub-3 second comprehensive analysis
-- **🎯 Accuracy**: 40% better financial decisions
-- **💖 Impact**: 70% reduction in financial stress
-- **⚡ Scalability**: 50+ concurrent users supported
-
----
-
-**Built with ❤️ for financial empowerment and technical excellence**
