@@ -58,36 +58,76 @@ Financial wellness requires **multiple domains of expertise** no single AI can m
 
 ## 🏗️ System Architecture
 
-### High-Level Architecture
-
-```mermaid
 graph TB
-    A[📱 User Interface] --> B[🚀 FastAPI Gateway]
-    B --> C[🎭 Orchestrator Agent]
-    
-    C --> D[🤖 Financial Health Agent]
-    C --> E[📈 Portfolio Management Agent] 
-    C --> F[🧠 AI Insight Generator]
-    
-    D --> G[📊 Parallel Analysis Engine]
-    G --> G1[💰 Savings Health]
-    G --> G2[🏦 Debt Management]
-    G --> G3[📈 Investment Analysis]
-    G --> G4[⚖️ Income Stability]
-    
-    E --> H[🎯 Risk Assessment]
-    E --> I[📊 Asset Allocation]
-    
-    F --> J[🔮 Gemini AI Integration]
-    
-    K[💾 Memory System] --> C
-    L[📡 Data Services] --> D
-    L --> E
-    M[📨 Message Broker] --> D
-    M --> E
-    
-    N[🎨 Dashboard Engine] --> O[📊 Professional Visualizations]
-```
+    %% Styling Definitions
+    classDef ui fill:#4A90E2,stroke:#3A70B2,stroke-width:2px,color:white;
+    classDef gateway fill:#9013FE,stroke:#7101CB,stroke-width:2px,color:white;
+    classDef orchestrator fill:#B84DC4,stroke:#9730A3,stroke-width:2px,color:white;
+    classDef broker fill:#F5A623,stroke:#D48A1A,stroke-width:2px,color:white;
+    classDef agent fill:#50E3C2,stroke:#3BC1A2,stroke-width:2px,color:#333;
+    classDef subAgent fill:#B8E986,stroke:#97C966,stroke-width:2px,color:#333;
+    classDef service fill:#D0021B,stroke:#AF0016,stroke-width:2px,color:white;
+    classDef memory fill:#8B572A,stroke:#6D4320,stroke-width:2px,color:white;
+    classDef dashboard fill:#417505,stroke:#315803,stroke-width:2px,color:white;
+    classDef external fill:#666,stroke:#4A4A4A,stroke-width:2px,color:white;
+    classDef metrics fill:#FF6B6B,stroke:#E05555,stroke-width:2px,color:white;
+
+    %% Nodes with Emojis and specific classes
+    A[🖥️ User Interface]:::ui
+    B[🚪 FastAPI Gateway]:::gateway
+    C[🎯 Enterprise Financial Advisory Orchestrator]:::orchestrator
+    D[📨 Message Broker]:::broker
+    E[🔍 Enhanced Financial Health Analysis Agent]:::agent
+    F[📊 Portfolio Management Agent]:::agent
+
+    E1[📈 perform_enhanced_analysis]:::subAgent
+    E2[💰 _analyze_savings_and_emergency_fund]:::subAgent
+    E3[💳 _analyze_debt_management]:::subAgent
+    E4[📈 _analyze_investment_health]:::subAgent
+    E5[💵 _analyze_income_stability]:::subAgent
+    E6[📋 _compile_comprehensive_report]:::subAgent
+
+    F1[🔎 analyze_investment_portfolio]:::subAgent
+    F2[⚖️ generate_rebalancing_strategy]:::subAgent
+
+    G[🤖 AI Service Integration]:::service
+    H[💾 Financial Data Services]:::service
+    I[🧠 Financial Memory System]:::memory
+    J[📈 Professional Financial Dashboard]:::dashboard
+    K[🛠️ generate_professional_dashboard]:::dashboard
+
+    L[⭐ Gemini AI]:::external
+    M[📊 Yahoo Finance API]:::external
+    N[📐 System Metrics]:::metrics
+
+    %% Connections
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    D --> F
+    E --> E1
+    E1 --> E2
+    E1 --> E3
+    E1 --> E4
+    E1 --> E5
+    E1 --> E6
+    F --> F1
+    F --> F2
+    C --> G
+    C --> H
+    E --> G
+    E --> H
+    F --> H
+    C --> I
+    C --> J
+    J --> K
+    L --> G
+    M --> H
+    N --> C
+    N --> D
+    N --> E
+    N --> F
 
 ### 🏢 Enterprise Technology Stack
 
