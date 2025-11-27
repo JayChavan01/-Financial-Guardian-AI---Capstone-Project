@@ -571,5 +571,5 @@ financial-guardian-ai/
 
 ---
 <div align="center">
-**Built with ❤️ for financial empowerment and technical excellence**
+###Built with ❤️ for financial empowerment and technical excellence
 </div>
