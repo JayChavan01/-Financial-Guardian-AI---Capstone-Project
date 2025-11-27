@@ -183,6 +183,7 @@ class AgentMessage:
 5. **Dashboard Generation** → Professional visualization
 
 ---
+<div align="center">
 
 ## 🚀 Advanced Features
 
@@ -199,7 +200,7 @@ class AgentMessage:
 
 ### 📊 Performance Excellence
 
-<div align="center">
+
 
 | Metric | Our System | Industry Standard | Advantage |
 |--------|------------|-------------------|-----------|
