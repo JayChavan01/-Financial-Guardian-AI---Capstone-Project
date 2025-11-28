@@ -538,7 +538,7 @@ financial-guardian-ai/
 [🤖 Multi-Agent Architecture](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/Multi-Agent%20Architecture%20%26%20Component%20Overview.jpg) • 
 [🚀 System Capabilities](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/System%20Capabilities%20%26%20Value%20Proposition.jpg) • 
 [📊 Financial Dashboard](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/Overall%20Financial%20Health%20Dashboard.jpg) • 
-[📈 Live Analysis Output](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/Live%20Client%20Financial%20Analysis%20Output.jpg) • 
+[📈 Live Analysis Output ](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/Live%20Client%20Financial%20Analysis%20Output.jpg) • 
 [🎥 Video Walkthrough](https://youtu.be/NvKiGwRKdRs)
 
 </div>
