@@ -532,69 +532,14 @@ financial-guardian-ai/
 
 ---
 
-### 🔗 Quick Links
-
-[📋 Project Proposal](docs/proposal.md) • [🏗️ Architecture](docs/architecture.md) • [🎬 Video Demo](https://youtu.be/NvKiGwRKdRs) • [🐛 Report Issue](https://github.com/yourusername/financial-guardian-ai/issues)
-
-</div>
-
-<div align="center">
-
-## 🎯 Transforming Financial Wellness Through AI
-
-**Financial Guardian AI** - Where advanced multi-agent systems meet real-world financial empowerment
-
-*"Democratizing financial guidance for everyone, everywhere"* 🌍
-
-**⭐ Star this repository if you believe in financial empowerment through technology!**
-
----
-
-### 🎨 Media Gallery
+###🔗 Quick Access Media
 
 [🏗️ System Architecture](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/System%20Architecture%20Overview.jpg) • 
 [🤖 Multi-Agent Architecture](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/Multi-Agent%20Architecture%20%26%20Component%20Overview.jpg) • 
 [🚀 System Capabilities](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/System%20Capabilities%20%26%20Value%20Proposition.jpg) • 
 [📊 Financial Dashboard](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/Overall%20Financial%20Health%20Dashboard.jpg) • 
 [📈 Live Analysis Output](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/Live%20Client%20Financial%20Analysis%20Output.jpg) • 
-[🎬 Video Demo](https://youtu.be/NvKiGwRKdRs)
-
-</div>
-
----
-
-<div align="center">
-
-## 🎯 Transforming Financial Wellness Through AI
-
-**Financial Guardian AI** - Where advanced multi-agent systems meet real-world financial empowerment
-
-*"Democratizing financial guidance for everyone, everywhere"* 🌍
-
-**⭐ Star this repository if you believe in financial empowerment through technology!**
-
----
-
-### 🔗 Quick Access Media
-
-[📐 System Architecture Overview](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/System%20Architecture%20Overview.jpg) • 
-[🤖 Agent Component Diagram](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/Multi-Agent%20Architecture%20%26%20Component%20Overview.jpg) • 
-[💡 Value Proposition](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/System%20Capabilities%20%26%20Value%20Proposition.jpg) • 
-[📈 Live Dashboard](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/Overall%20Financial%20Health%20Dashboard.jpg) • 
-[⚡ System Output](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/Live%20Client%20Financial%20Analysis%20Output.jpg) • 
 [🎥 Video Walkthrough](https://youtu.be/NvKiGwRKdRs)
-
-</div>
-
----
-
-
----
-
-<div align="center">
-
-**Built with technical excellence and social impact in mind**  
-*Recognized in the Google AI Agents Intensive Program*
 
 </div>
 
