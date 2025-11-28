@@ -532,7 +532,7 @@ financial-guardian-ai/
 
 ---
 
-###🔗 Quick Access Media
+### 🔗 Quick Access Media
 
 [🏗️ System Architecture](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/System%20Architecture%20Overview.jpg) • 
 [🤖 Multi-Agent Architecture](https://github.com/JayChavan01/Capstone-Project_Financial-Guardian-AI/blob/main/Media/Multi-Agent%20Architecture%20%26%20Component%20Overview.jpg) • 
